@@ -6,7 +6,7 @@
     "descriptionPlacement": "below",
     "button": {
       "type": "text",
-      "text": "Submit",
+      "text": "Vote now",
       "imageUrl": ""
     },
     "fields": [
@@ -72,7 +72,7 @@
     "nextFieldId": 10,
     "subLabelPlacement": "below",
     "cssClass": "simple_voteform",
-    "enableHoneypot": false,
+    "enableHoneypot": true,
     "enableAnimation": false,
     "save": {
       "enabled": false,
@@ -115,7 +115,7 @@
         "name": "Default Confirmation",
         "isDefault": true,
         "type": "message",
-        "message": "Thanks for contacting us! We will get in touch with you shortly.",
+        "message": "Thanks for voting!",
         "url": "",
         "pageId": "",
         "queryString": ""
