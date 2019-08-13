@@ -34,7 +34,10 @@ function populate_radiobuttons($form)
   
     // Create Radio Buttons with extra content in label field.
     foreach ($acfData as $data) {
-        $items[] = array('value' => $data['name'], 'text' => wp_get_attachment_image($data['photo'], 'medium') . '<h3>' . $data['name'] . '</h3><p>' . $data['school']);
+        $items[] = array(
+            'value' => $data['name'],
+            'text' => wp_get_attachment_image($data['photo'], 'medium') . '<h3>' . $data['name'] . '</h3><p>' . $data['school']
+        );
     }
     
     // Add Radio Buttons to to field
