@@ -1,0 +1,126 @@
+{
+  "0": {
+    "title": "Simple Vote Form",
+    "description": "",
+    "labelPlacement": "top_label",
+    "descriptionPlacement": "below",
+    "button": {
+      "type": "text",
+      "text": "Submit",
+      "imageUrl": ""
+    },
+    "fields": [
+      {
+        "type": "radio",
+        "id": 1,
+        "label": "Voting Choices",
+        "adminLabel": "",
+        "isRequired": true,
+        "size": "medium",
+        "errorMessage": "",
+        "visibility": "visible",
+        "inputs": null,
+        "choices": [
+          {
+            "value": "First Choice",
+            "text": "First Choice",
+            "isSelected": false
+          }
+        ],
+        "formId": 1,
+        "description": "",
+        "allowsPrepopulate": false,
+        "inputMask": false,
+        "inputMaskValue": "",
+        "maxLength": "",
+        "inputType": "",
+        "labelPlacement": "hidden_label",
+        "descriptionPlacement": "",
+        "subLabelPlacement": "",
+        "placeholder": "",
+        "cssClass": "voting_choices",
+        "inputName": "nmt",
+        "noDuplicates": false,
+        "defaultValue": "",
+        "conditionalLogic": "",
+        "productField": "",
+        "enableOtherChoice": "",
+        "enablePrice": "",
+        "fields": "",
+        "displayOnly": "",
+        "multipleFiles": false,
+        "maxFiles": "",
+        "calculationFormula": "",
+        "calculationRounding": "",
+        "enableCalculation": "",
+        "disableQuantity": false,
+        "displayAllCategories": false,
+        "useRichTextEditor": false,
+        "checkboxLabel": ""
+      }
+    ],
+    "version": "2.4.5",
+    "id": 1,
+    "useCurrentUserAsAuthor": true,
+    "postContentTemplateEnabled": false,
+    "postTitleTemplateEnabled": false,
+    "postTitleTemplate": "",
+    "postContentTemplate": "",
+    "lastPageButton": null,
+    "pagination": null,
+    "firstPageCssClass": null,
+    "nextFieldId": 10,
+    "subLabelPlacement": "below",
+    "cssClass": "simple_voteform",
+    "enableHoneypot": false,
+    "enableAnimation": false,
+    "save": {
+      "enabled": false,
+      "button": {
+        "type": "link",
+        "text": "Save and Continue Later"
+      }
+    },
+    "limitEntries": false,
+    "limitEntriesCount": "",
+    "limitEntriesPeriod": "",
+    "limitEntriesMessage": "",
+    "scheduleForm": false,
+    "scheduleStart": "",
+    "scheduleStartHour": "",
+    "scheduleStartMinute": "",
+    "scheduleStartAmpm": "",
+    "scheduleEnd": "",
+    "scheduleEndHour": "",
+    "scheduleEndMinute": "",
+    "scheduleEndAmpm": "",
+    "schedulePendingMessage": "",
+    "scheduleMessage": "",
+    "requireLogin": false,
+    "requireLoginMessage": "",
+    "notifications": [
+      {
+        "id": "5d5141d354fb9",
+        "to": "{admin_email}",
+        "name": "Admin Notification",
+        "event": "form_submission",
+        "toType": "email",
+        "subject": "New submission from {form_title}",
+        "message": "{all_fields}"
+      }
+    ],
+    "confirmations": [
+      {
+        "id": "5d5141d355422",
+        "name": "Default Confirmation",
+        "isDefault": true,
+        "type": "message",
+        "message": "Thanks for contacting us! We will get in touch with you shortly.",
+        "url": "",
+        "pageId": "",
+        "queryString": ""
+      }
+    ]
+  },
+  "version": "2.4.5"
+}
