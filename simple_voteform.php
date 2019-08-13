@@ -22,7 +22,7 @@ add_filter('gform_pre_submission_filter', 'populate_radiobuttons');
 function populate_radiobuttons($form)
 {
     $formID = 1; // Form ID
-    $fieldID = 3; // Field ID
+    $fieldID = 1; // Field ID
 
     // Quit if not the correct form
     if ($form['id'] != $formID) {
