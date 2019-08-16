@@ -64,7 +64,7 @@ add_action('wp_dashboard_setup', function () {
 function vote_results()
 {
     // Get total amount of entries
-    $form_count  = RGFormsModel::get_form_counts(1);
+    $form_count  = RGFormsModel::get_form_counts($formID);
     $entry_total = $form_count['total'];
 
     // Get all choices from ACF Options
@@ -90,9 +90,6 @@ function vote_results()
     echo '</thead><tbody>';
     foreach ($acfData as $i => $data) {
         $search_criteria = array(
-            'status'     => 'active', //optional
-            'start_date' => $startdate, //optional
-            'end_date'   => $enddate, //optional
             'field_filters' => array(
                 array(
                     'key'   => $fieldID, // ID of the Choice field
